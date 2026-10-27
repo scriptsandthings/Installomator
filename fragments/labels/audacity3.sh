@@ -1,4 +1,3 @@
-audacity|\
 audacity3)
     name="Audacity"
     type="dmg"

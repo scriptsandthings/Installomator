@@ -1,3 +1,4 @@
+audacity|\
 audacity4)
     name="Audacity"
     appName="Audacity 4.app"
