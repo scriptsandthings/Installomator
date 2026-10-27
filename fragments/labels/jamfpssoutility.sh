@@ -1,7 +1,9 @@
 jamfpssoutility)
     name="PSSO Utility"
     type="pkg"
-    downloadURL=$(downloadURLFromGit jamf-concepts psso-utility)
-    appNewVersion=$(versionFromGit jamf-concepts psso-utility)
+    packageID="com.jamf.concepts.psso-utility"
+    downloadURL="$(downloadURLFromGit Jamf-Concepts psso-utility)"
+    appNewVersion="$(versionFromGit Jamf-Concepts psso-utility)"
     expectedTeamID="483DWKW443"
+    blockingProcesses=( "PSSO Utility" )
     ;;
