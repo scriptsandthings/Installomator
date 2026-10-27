@@ -1,9 +1,9 @@
 santa)
-    # credit: Tadayuki Onishi (@kenchan0130)
+    # Santa is maintained by North Pole Security; google/santa is archived.
     name="Santa"
-    type="pkgInDmg"
-    packageID="com.google.santa"
-    downloadURL=$(downloadURLFromGit google santa)
-    appNewVersion=$(versionFromGit google santa)
-    expectedTeamID="EQHXZ8M8AV"
+    type="pkg"
+    packageID="com.northpolesec.santa"
+    downloadURL=$(downloadURLFromGit northpolesec santa)
+    appNewVersion=$(versionFromGit northpolesec santa)
+    expectedTeamID="ZMCG7MLDV9"
     ;;
